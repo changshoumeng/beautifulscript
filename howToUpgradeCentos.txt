@@ -1,0 +1,16 @@
+How To Upgrade your centos6.3 to centos7.x?
+1. upgrade yum.
+---------------------------
+I visit http://www.dwhd.org/20150709_141710.html
+    <yum update出现yum-plugin-fastestmirror is needed by yum-3.2.29-60.el6.centos.noarch的解决方法>
+    
+    the get url http://mirrors.aliyun.com/centos/6/os/x86_64/Packages/,then down such as rpm-files:
+    
+-rw-r--r-- 1 root root   37052 4月   3 10:34 python-iniparse-0.3.1-2.1.el6.noarch.rpm
+-rw-r--r-- 1 root root   87660 4月   3 10:39 python-urlgrabber-3.9.1-11.el6.noarch.rpm
+-rw-r--r-- 1 root root 1039196 4月   3 10:33 yum-3.2.29-73.el6.centos.noarch.rpm
+-rw-r--r-- 1 root root   27224 4月   3 10:34 yum-metadata-parser-1.1.2-16.el6.x86_64.rpm
+-rw-r--r-- 1 root root   32844 4月   3 10:35 yum-plugin-fastestmirror-1.1.30-37.el6.noarch.rpm
+
+    then visit http://fengyuzaitu.blog.51cto.com/5218690/1571030 ,
+    done!
