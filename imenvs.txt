@@ -1,0 +1,49 @@
+<im server system>
+
+The platforms and tools dependent on the system,as follows:
+
+<gcc-c++-gdb>
+sudo apt-get install  build-essential
+
+
+
+
+<libgd>
+-----------------------------------------
+http://elkpi.com/topics/libgd-notes.html
+-----------------------------------------
+sudo apt-get install libgd-dev
+sudo apt-get install libgd2-noxpm-dev
+/usr/include/gd.h
+
+sudo apt-get install git
+sudo apt-get install nasm
+
+ubuntu下升级cmake
+http://blog.csdn.net/heroacool/article/details/50838808
+
+>>upgrade cmake  <failed to try this method>
+udo apt-get install software-properties-common
+sudo apt-get install python-software-properties
+sudo add-apt-repository ppa:george-edison55/cmake-3.x
+sudo apt-get update
+sudo apt-get upgrade
+
+Ubuntu14.04安装CMake3.0.2
+http://blog.csdn.net/wz3118103/article/details/39826397
+/usr/local/bin/cmake
+ sudo apt-get install automake
+
+
+
+5.安装GD
+
+tar zxvf gd-2.0.33.tar.gz
+cd gd-2.0.33
+./configure --with-png --with-freetype --with-jpeg
+make install
+
+
+
+
+
