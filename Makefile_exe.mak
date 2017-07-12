@@ -1,7 +1,9 @@
-###################################################
-#Teach Wisedom to My Machine
-#       Please Call me Devil
+##########################################################
+#   A clever person solves a problem. A wise person avoids it
+#   Please call Me programming devil.
 #
+#
+######################################################## #
 CC         := g++
 ROOT_DIR   := $(shell pwd)
 SRC_DIR    := $(ROOT_DIR)/src
