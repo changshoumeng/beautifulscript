@@ -1,0 +1,3 @@
+9475-intellij-solidity
+https://plugins.jetbrains.com/idea/plugin/9475-intellij-solidity
+https://github.com/intellij-solidity
