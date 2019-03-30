@@ -39,6 +39,7 @@ def process_msg(s):
             t2 = gettickcount()
             t = t2 - t1
             print("---------------------")
+            print("recv ok. datasize:{} use:{}".format( len(data),t))
             print(data)
         except Exception as e:
             print(e)
