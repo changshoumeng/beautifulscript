@@ -1,0 +1,4 @@
+struct db_im_base 1
+data db_im_log 1
+data db_im_msg_record 2
+data db_im_user_msg 2

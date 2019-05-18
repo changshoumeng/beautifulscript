@@ -122,7 +122,7 @@ def loadConfig():
             if not elems:
                 continue
 
-            if len(elems) >= 3:
+            if len(elems) >= 4:
                 print("invalid elems:{0}".format(elems))
                 sys.exit(1)
 
@@ -137,12 +137,18 @@ def dumpMysqlDB():
         return
 
     for elems in dbList:
-        if len(elems) == 1:
-            dumpDatabaseStructAndData(elems[0], 0)
+        if len(elems) == 2:
+            if elems[0] == "data":
+                dumpDatabaseStructAndData(elems[1], 0)
+            if elems[0] == "struct":
+                dumpDatabaseOnlyStruct(elems[1], 0)
             continue
 
-        if len(elems) == 2:
-            dumpDatabaseStructAndData(elems[0], int(elems[0]))
+        if len(elems) == 3:
+            if elems[0] == "data":
+                dumpDatabaseStructAndData(elems[1], int(elems[2])   )
+            if elems[0] == "struct":
+                dumpDatabaseOnlyStruct(elems[1], int(elems[2])  )
             continue
 
 
